@@ -1,4 +1,8 @@
-site_name: gsph's Documents
+site_name: gsph's pages
 site_url: https://example.com/
 theme:
   name: material
+  logo: assets/images/logo.png
+  palette:
+    primary: blue grey
+    accent: cyan
