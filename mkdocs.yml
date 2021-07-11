@@ -1,8 +1,29 @@
-site_name: gsph's pages
+site_name: gsph 程式學習筆記
 site_url: https://example.com/
+copyright: Copyright &copy; 2021 - 2021 Philip Chang
+
 theme:
   name: material
-  logo: assets/images/logo.png
+  logo: assets/icons/logo.png
+  favicon: assets/icons/favicon.png
   palette:
     primary: blue grey
     accent: cyan
+  font:
+    text: Noto Sans TC
+    code: Source Code Pro
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+
+nav:
+  - About:
+    - 關於本站: index.md
+    - 關於我: me.md
+  - Java:
+    - Why Docs?: why-docs.md
+    - Write Before:
+      - why this:
+        - what: why_this.md
+  - macOS: macos.md
